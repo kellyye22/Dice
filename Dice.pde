@@ -68,7 +68,7 @@ class Die //models one single dice cube
        ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
        ellipse(myX + 25, myY + 75, dieRadius,dieRadius);
        ellipse(myX + 75, myY + 25, dieRadius,dieRadius);
-       ellipse(myX + 75, myY + 75, dieRadius);
+       ellipse(myX + 75, myY + 75, dieRadius,dieRadius);
     }else if (rolls == 5){
        ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
        ellipse(myX + 25, myY + 75, dieRadius,dieRadius);
