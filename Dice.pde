@@ -56,32 +56,32 @@ class Die //models one single dice cube
     fill(0);
     
     if (rolls == 1){
-      circle(myX + 50, myY + 50, dieRadius);
+      ellipse(myX + 50, myY + 50, dieRadius,dieRadius);
     }else if(rolls ==2){
-      circle(myX + 25, myY + 25, dieRadius);
-      circle(myX + 75, myY + 75, dieRadius);
+      ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
+      ellipse(myX + 75, myY + 75, dieRadius,dieRadius);
     }else if(rolls == 3){
-      circle(myX + 25, myY + 25, dieRadius);
-      circle(myX + 50, myY + 50, dieRadius);
-      circle(myX + 75, myY + 75, dieRadius);
+      ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
+      ellipse(myX + 50, myY + 50, dieRadius,dieRadius);
+      ellipse(myX + 75, myY + 75, dieRadius,dieRadius);
     }else if (rolls == 4){
-       circle(myX + 25, myY + 25, dieRadius);
-       circle(myX + 25, myY + 75, dieRadius);
-       circle(myX + 75, myY + 25, dieRadius);
-       circle(myX + 75, myY + 75, dieRadius);
+       ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
+       ellipse(myX + 25, myY + 75, dieRadius,dieRadius);
+       ellipse(myX + 75, myY + 25, dieRadius,dieRadius);
+       ellipse(myX + 75, myY + 75, dieRadius);
     }else if (rolls == 5){
-       circle(myX + 25, myY + 25, dieRadius);
-       circle(myX + 25, myY + 75, dieRadius);
-       circle(myX + 50, myY + 50, dieRadius);
-       circle(myX + 75, myY + 25, dieRadius);
-       circle(myX + 75, myY + 75, dieRadius);
+       ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
+       ellipse(myX + 25, myY + 75, dieRadius,dieRadius);
+       ellipse(myX + 50, myY + 50, dieRadius,dieRadius);
+       ellipse(myX + 75, myY + 25, dieRadius,dieRadius);
+       ellipse(myX + 75, myY + 75, dieRadius,dieRadius);
     }else if(rolls == 6){
-      circle(myX + 25, myY + 25, dieRadius);
-      circle(myX + 25, myY + 50, dieRadius);
-      circle(myX + 25, myY + 75, dieRadius);
-      circle(myX + 75, myY + 25, dieRadius);
-      circle(myX + 75, myY + 50, dieRadius);
-      circle(myX + 75, myY + 75, dieRadius);
+      ellipse(myX + 25, myY + 25, dieRadius,dieRadius);
+      ellipse(myX + 25, myY + 50, dieRadius,dieRadius);
+      ellipse(myX + 25, myY + 75, dieRadius,dieRadius);
+      ellipse(myX + 75, myY + 25, dieRadius,dieRadius);
+      ellipse(myX + 75, myY + 50, dieRadius,dieRadius);
+      ellipse(myX + 75, myY + 75, dieRadius,dieRadius);
     }
 	}
 }
